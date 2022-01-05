@@ -56,6 +56,12 @@ else
 end
 
 # 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
+x = 10
+if x < 0
+  puts 1776
+else
+  puts 1979
+end
 
 # 8. Use a variable to store a number, then write a condition that prints 100 if the number equals 100, prints 99 if the number is equal to 99, and prints 0 otherwise.
 
