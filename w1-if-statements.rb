@@ -35,8 +35,25 @@ else
 end
 
 # 5. Use a variable to store a number, then write a condition that prints 9 if the number is less than 10, prints 19 if the number is less than 20, prints 29 if the number is less than 30, and prints -1 otherwise (only one print statement should occur).
+x = 10
+if x > 29
+  puts -1
+elsif x < 10
+  puts 9
+elsif x < 20
+  puts 19
+elsif x < 30
+  puts 29
+end
 
 # 6. Use variables to store two numbers, then write a condition that prints 100 if either number is greater than 10, and prints -100 otherwise.
+x = 100
+y= 50
+if x > 10 || y > 10
+  puts 100
+else
+  puts -100
+end
 
 # 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
 
